@@ -1,0 +1,61 @@
+# Node.js (Frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+.vscode/
+dist/
+build/
+.DS_Store
+
+# Python (Backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+*.sqlite3
+instance/
+venv/
+venv-*/  
+Pipfile
+Pipfile.lock
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Database
+database/postgres_data/
+*.sql~
+*.db
+*.dump
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfstate.d/
+
+# Logs & Temp Files
+*.log
+*.out
+*.pid
+*.swp
+*.swo
+*.swn
+nohup.out
+*.bak
+
+# System files
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm)
+.idea/
+
+# AWS Credentials (if any)
+.aws/
