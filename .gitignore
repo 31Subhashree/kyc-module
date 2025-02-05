@@ -25,11 +25,6 @@ Pipfile.lock
 docker-compose.override.yml
 .dockerignore
 
-# Database
-database/postgres_data/
-*.sql~
-*.db
-*.dump
 
 # Terraform
 .terraform/
